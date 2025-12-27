@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Splash screen theme -->
+    <style name="BootTheme" parent="Theme.BootSplash">
+        <item name="bootSplashBackground">@color/bootsplash_background</item>
+        <item name="bootSplashLogo">@drawable/bootsplash_logo</item>
+        <item name="postBootSplashTheme">@style/AppTheme</item>
+    </style>
+
+    <!-- App theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- removed broken rn_edit_text_material -->
+    </style>
+
+</resources>
